@@ -1,0 +1,61 @@
+.clearfix {
+	clear: both;
+}
+#poststuff h2 {
+    /* font-size: 14px;
+    padding: 8px 12px;
+    margin: 0;
+   	line-height: 1.4; */
+
+	font-size: 1.3em;
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+.wpruby_button {
+	width: 100%;
+	height: 35px!important;
+	padding: 5px!important;
+	font-size: 12pt!important;
+	text-align: center;
+	background-color: #ea6254!important;
+	border-color: #ea6254!important;
+	color: #ffffff!important;
+	display: inline-block;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+.wpruby_button:hover,
+.wpruby_button:focus,
+.wpruby_button:active
+ {
+	background-color: #0a0f1c!important;
+	border-color: #0a0f1c!important;
+}
+.wpruby_button .button-title {
+	display: inline-block;
+	margin-top: -8px !important;
+	vertical-align: top;
+}
+.wordpress-icon {
+    position: relative;
+    float: left;
+    width: 15px;
+    height: 20px;
+    margin-right: 6px;
+    margin-top: -3px;
+    /*margin-right: 0;*/
+    /*padding: 6px 0 5px;*/
+    padding: 4px 0;
+    font: normal 20px/1 dashicons;
+    /*speak: none;*/
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: none !important;
+}
+.wordpress-icon::before {
+    content: "\f120";
+    top: 2px;
+}
